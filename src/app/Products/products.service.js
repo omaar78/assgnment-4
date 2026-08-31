@@ -41,4 +41,14 @@ const updatePrice = async (name, price) => {
     return result;
 };
 
-module.exports = {createProduct, getAllProducts, getAllProductById, updateProduct, deleteProduct, updatePrice};
+//deleteProductByName
+const deleteProductByName = async (name) => {
+    const result = await productsService.deleteProduct(name);
+    if (!result) {
+        throw Error.status(404, "Product not found");
+    }
+    return result;
+};
+
+
+module.exports = {createProduct, getAllProducts, getAllProductById, updateProduct, deleteProduct, updatePrice, deleteProductByName};

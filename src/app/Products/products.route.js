@@ -1,5 +1,5 @@
 const {Router}= require('express');
-const {createProduct, getAllProducts, getAllProductById, updateProduct, deleteProduct, updatePrice} = require('products.controller')
+const {createProduct, getAllProducts, getAllProductById, updateProduct, deleteProduct, updatePrice, deleteProductByName} = require('products.controller')
 const {router} = require("express/lib/application");
 
 
@@ -18,5 +18,6 @@ router.delete('/:id', deleteProduct);
 
 router.patch('/price', updatePrice);
 
+router.delete('/:name', deleteProductByName);
 
 module.exports = productRouter;

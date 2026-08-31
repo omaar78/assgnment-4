@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/migrations/Revoke.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/all_sales.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/grant_delete1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/highest_stock_quantity.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/names_start_with_'F'.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/migrations/product.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/products_never_sold.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/migrations/sales.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/store_manager.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/migrations/supplier.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/total_quantity_sold.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/common/Schemas.sql" dialect="PostgreSQL" />
   </component>
 </project>

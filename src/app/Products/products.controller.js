@@ -83,4 +83,19 @@ const updatePrice = async (req, res, next) => {
     }
 };
 
-module.exports = {createProduct, getAllProducts, getAllProductById, updateProduct, deleteProduct, updatePrice};
+//deleteProductByName
+const deleteProductByName = async (req, res, next) => {
+    try {
+        const {name} = req.body;
+        const result = await productsService.deleteProduct(name);
+        res.status(200).json({
+            message: 'Product deleted successfully.',
+            success: true,
+        })
+    }catch (Error){
+        next(Error)
+    }
+};
+
+
+module.exports = {createProduct, getAllProducts, getAllProductById, updateProduct, deleteProduct, updatePrice, deleteProductByName};

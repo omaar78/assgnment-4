@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/migrations/Revoke.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
+    <file url="file://$PROJECT_DIR$/migrations/all_sales.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
+    <file url="file://$PROJECT_DIR$/migrations/grant_delete1.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
+    <file url="file://$PROJECT_DIR$/migrations/highest_stock_quantity.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
+    <file url="file://$PROJECT_DIR$/migrations/names_start_with_'F'.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
     <file url="file://$PROJECT_DIR$/migrations/product.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
+    <file url="file://$PROJECT_DIR$/migrations/products_never_sold.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
     <file url="file://$PROJECT_DIR$/migrations/sales.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
+    <file url="file://$PROJECT_DIR$/migrations/store_manager.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
     <file url="file://$PROJECT_DIR$/migrations/supplier.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
+    <file url="file://$PROJECT_DIR$/migrations/total_quantity_sold.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
     <file url="file://$PROJECT_DIR$/src/common/Schemas.sql" value="b867d19a-cc4e-4eed-8dd4-690a0c9ebea2" />
   </component>
 </project>
